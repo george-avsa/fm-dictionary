@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('./inter/Inter-VariableFont_slnt\,wght.ttf');
+  }
+  
+  @font-face {
+    font-family: 'Inconsolata';
+    src: url('./inconsolata/Inconsolata-VariableFont_wdth\,wght.ttf');
+  }
+  
+  @font-face {
+    font-family: 'Lora';
+    font-style: italic;
+    src: url('./lora/Lora-Italic-VariableFont_wght.ttf');
+  }
+  
+  @font-face {
+    font-family: 'Lora';
+    font-style: normal;
+    src: url('./lora/Lora-VariableFont_wght.ttf');
+  }
+  
