@@ -1,5 +1,7 @@
 import { useSelector } from "react-redux";
+import Dictionary from "./components/Dictionary";
 import Nav from "./components/Nav";
+import Search from "./components/Search";
 import { selectTheme } from "./store/settings/settings-selectors";
 
 function App() {
@@ -14,6 +16,8 @@ function App() {
   return (
     <div className="App" style={appStyles}>
       <Nav></Nav>
+      <Search></Search>
+      <Dictionary></Dictionary>
     </div>
   );
 }
