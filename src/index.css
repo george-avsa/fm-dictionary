@@ -5,7 +5,16 @@
 /* variables */
 @import url('./assets/variables.css');
 
+html {
+  overflow-x: hidden;
+}
+
 .App {
+  width: 100vw;
+  box-sizing: border-box;
+}
+
+.app_wrapper {
   width: 736px;
   margin: 0 auto;
   display: flex;
@@ -57,12 +66,10 @@ nav {
   width: 100%;
   height: 100px;
   padding: 24px 70px 24px 24px;
-  background-color: var(--white);
   top: 40px;
   right: 0px;
   min-width: 130px;
 
-  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
   border-radius: 16px;
 
   display: flex;
@@ -77,7 +84,6 @@ nav {
 .settings__divider {
   height: 32px;
   width: 2px;
-  background-color: var(--grey-200);
 }
 
 .theme {
@@ -91,7 +97,6 @@ nav {
   border-radius: 10px;
   position: relative;
   cursor: pointer;
-  background-color: #757575;
 }
 
 .theme-switcher__circle {
@@ -99,7 +104,6 @@ nav {
   width: 14px;
   height: 14px;
   border-radius: 50%;
-  background-color: var(--white);
   top: 3px;
 }
 
@@ -122,7 +126,6 @@ form.search * {
 .search__input {
   width: 100%;
   padding: 20px 60px 20px 24px;
-  background: #F4F4F4;
   border-radius: 16px;
   box-sizing: border-box;
   
@@ -130,7 +133,7 @@ form.search * {
   font-weight: 700;
   font-size: 20px;
   
-  color: #2D2D2D;
+  
 }
 
 .search__input--error {
@@ -147,7 +150,7 @@ form.search * {
   top: 100%;
   margin-top: 10px;
   
-  color: #FF5252;
+  
 }
 
 .search__input:focus {
@@ -161,7 +164,6 @@ form.search * {
 .search__button {
   border-radius: 16px;
   position: absolute;
-  background-color: #F4F4F4;
   top: 0;
   width: 57px;
   height: 100%;
@@ -195,7 +197,7 @@ form.search * {
   line-height: 24px;
   text-align: center;
 
-  color: #2D2D2D;
+  
 }
 
 .dictionary__error-description {
@@ -204,7 +206,7 @@ form.search * {
   font-size: 18px;
   line-height: 24px;
   text-align: center;
-  color: #757575;
+  
 }
 
 .dictionary__arrow {
@@ -223,7 +225,7 @@ form.search * {
   font-weight: 700;
   font-size: 60px;
   line-height: 77px;
-  color: #2D2D2D;
+  
 }
 
 .dictionary__transription {
@@ -233,7 +235,7 @@ form.search * {
   font-size: 22px;
   line-height: 29px;
 
-  color: #A445ED;
+  
 }
 
 .dictionary__word-audio {
@@ -256,13 +258,12 @@ form.search * {
   font-size: 24px;
   line-height: 29px;
 
-  color: #2D2D2D;
+  
 }
 
 .word-type__divider {
   flex-grow: 1;
   height: 2px;
-  background: #E9E9E9;
   margin-left: 30px;
 }
 
@@ -272,7 +273,7 @@ form.search * {
   font-size: 20px;
   margin-bottom: 25px;
 
-  color: #757575;
+  
 }
 
 .word-meaning__list {
@@ -287,8 +288,9 @@ form.search * {
   font-weight: 400;
   font-size: 18px;
   padding-left: 20px;
+  line-height: 24px;
 
-  color: #2D2D2D;
+  
 }
 
 .word-meaning__item:not(:last-child) {
@@ -302,7 +304,6 @@ form.search * {
 
 .word-source__divider {
   height: 2px;
-  background: #E9E9E9;
 }
 
 .word-source a {
@@ -318,7 +319,7 @@ form.search * {
   font-weight: 400;
   font-size: 14px;
   text-decoration-line: underline;
-  color: #757575;
+  
   margin-right: 20px;
 }
 
@@ -330,5 +331,5 @@ form.search * {
   text-decoration-line: underline;
   margin-right: 8px;
   
-  color: #2D2D2D;
+  
 }
