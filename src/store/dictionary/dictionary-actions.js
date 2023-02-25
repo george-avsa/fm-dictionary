@@ -18,7 +18,6 @@ export const getTranslation = (word) => (dispatch) => {
         }
     })
     .then(data => {
-            console.log(data)
             dispatch(reloadTranslation(data[0]))
         })
         .catch(error => {

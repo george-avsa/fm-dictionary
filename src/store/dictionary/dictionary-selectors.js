@@ -6,6 +6,20 @@ export const selectTranslationError = (state) => state.dictionary.error;
 
 export const selectWord = (state) => state.dictionary.translation?.word;
 
+export const selectAudio = (state) => {
+    let audioUrl = ''
+    
+    state.dictionary.translation?.phonetics?.forEach(phonetic => {
+        const audio = phonetic?.audio
+        if (audio) {
+            audioUrl = audio;
+            // break;
+        }
+    })
+    
+    return audioUrl;
+} 
+
 export const selectPhonetic = (state) => {
     // API can give phonetic as string and as an array
     // phonetic -> string; phonetics -> array

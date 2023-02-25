@@ -2,9 +2,7 @@ import React from 'react'
 
 export default function WordMeaning({meaning}) {
 
-    console.log(meaning)
     const definitions = meaning?.definitions;
-    console.log(meaning?.definitions)
 
   return (
     <div className='word-meaning'>
