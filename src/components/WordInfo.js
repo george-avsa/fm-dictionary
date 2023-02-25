@@ -25,8 +25,11 @@ export default function WordInfo() {
             <h1 className='dictionary__word'>{word}</h1>
             <h2 className='dictionary__transription'>{phonetic}</h2>
         </div>
-        <audio src={audio} ref={audioElement} onPlay={() => setAudioPaused(false)} onPause={() => setAudioPaused(true)}></audio>
-        <img className='dictionary__word-audio' alt='word-audio' src={audioPaused ? audioIcon : audioPlayingIcon} onClick={handleAudioPleer} />
+
+          {audio ? <>
+            <audio src={audio} ref={audioElement} onPlay={() => setAudioPaused(false)} onPause={() => setAudioPaused(true)}></audio>
+            <img className='dictionary__word-audio' alt='word-audio' src={audioPaused ? audioIcon : audioPlayingIcon} onClick={handleAudioPleer} />
+          </> : null}
     </div>
   )
 }
