@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fm-dictionary/static/css/main.7496ddcb.css",
-    "main.js": "/fm-dictionary/static/js/main.2a6b7e4d.js",
+    "main.css": "/fm-dictionary/static/css/main.4e4fdfbd.css",
+    "main.js": "/fm-dictionary/static/js/main.d725c66d.js",
     "static/media/Inter-VariableFont_slnt,wght.ttf": "/fm-dictionary/static/media/Inter-VariableFont_slnt,wght.aadb65ac45347ff46699.ttf",
     "static/media/Inconsolata-VariableFont_wdth,wght.ttf": "/fm-dictionary/static/media/Inconsolata-VariableFont_wdth,wght.1f56ee050cf1f63c7314.ttf",
     "static/media/Lora-Italic-VariableFont_wght.ttf": "/fm-dictionary/static/media/Lora-Italic-VariableFont_wght.731176b1f393de411b4f.ttf",
@@ -17,11 +17,11 @@
     "static/media/icon-play.svg": "/fm-dictionary/static/media/icon-play.a659db0104303a8b8ae071e0cf90119d.svg",
     "static/media/icon-arrow-down.svg": "/fm-dictionary/static/media/icon-arrow-down.aa902848ffe2b4ed5369af17076de50d.svg",
     "static/media/list-circle.svg": "/fm-dictionary/static/media/list-circle.7b2fdc5b56b332ccdcc3.svg",
-    "main.7496ddcb.css.map": "/fm-dictionary/static/css/main.7496ddcb.css.map",
-    "main.2a6b7e4d.js.map": "/fm-dictionary/static/js/main.2a6b7e4d.js.map"
+    "main.4e4fdfbd.css.map": "/fm-dictionary/static/css/main.4e4fdfbd.css.map",
+    "main.d725c66d.js.map": "/fm-dictionary/static/js/main.d725c66d.js.map"
   },
   "entrypoints": [
-    "static/css/main.7496ddcb.css",
-    "static/js/main.2a6b7e4d.js"
+    "static/css/main.4e4fdfbd.css",
+    "static/js/main.d725c66d.js"
   ]
 }
