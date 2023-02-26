@@ -1,0 +1,48 @@
+@media only screen and (max-width: 820px) {
+    .App {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .app_wrapper {
+        width: 100%;
+        height: 100%;
+    }
+    
+    nav {
+        min-width: 280px;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 60px 0px;
+    }
+
+    .theme img {
+        width: 16px;
+    }
+
+    nav img {
+        width: 24px;
+    }
+
+    .font-switcher img {
+        width: 16px;
+    }
+
+    .settings {
+        gap:10px;
+    }
+
+    .font-switcher__dropdown {
+        padding: 16px 24px 16px 16px;
+        left: -16px;
+        top: 30px
+    }
+
+    .dictionary--error {
+        padding-top: 40px;
+    }
+
+    .app_wrapper {
+        padding-bottom: 40px;
+    }
+}
